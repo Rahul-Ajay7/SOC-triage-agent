@@ -1,0 +1,37 @@
+[
+  {
+    "id": "T1110",
+    "name": "Brute Force",
+    "tactic": "Credential Access",
+    "url": "https://attack.mitre.org/techniques/T1110/",
+    "triggers": ["brute force", "multiple failed login", "failed password"]
+  },
+  {
+    "id": "T1110.001",
+    "name": "Brute Force: Password Guessing",
+    "tactic": "Credential Access",
+    "url": "https://attack.mitre.org/techniques/T1110/001/",
+    "triggers": ["password guessing", "invalid user"]
+  },
+  {
+    "id": "T1078",
+    "name": "Valid Accounts",
+    "tactic": "Defense Evasion / Persistence",
+    "url": "https://attack.mitre.org/techniques/T1078/",
+    "triggers": ["valid accounts", "successful login after failures", "anomalous location"]
+  },
+  {
+    "id": "T1133",
+    "name": "External Remote Services",
+    "tactic": "Initial Access",
+    "url": "https://attack.mitre.org/techniques/T1133/",
+    "triggers": ["external remote", "remote services", "ssh from external", "malicious ip external remote"]
+  },
+  {
+    "id": "T1021.004",
+    "name": "Remote Services: SSH",
+    "tactic": "Lateral Movement",
+    "url": "https://attack.mitre.org/techniques/T1021/004/",
+    "triggers": ["ssh", "remote"]
+  }
+]

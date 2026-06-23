@@ -1,0 +1,22 @@
+# Core web framework
+fastapi==0.115.0
+uvicorn==0.30.6
+
+# Validation
+pydantic==2.9.2
+
+# Database
+SQLAlchemy==2.0.35
+
+# Agent state machine
+langgraph==0.2.34
+langchain-core==0.3.9
+
+# HTTP (threat intel, geo)
+requests==2.32.3
+
+# Config
+python-dotenv==1.0.1
+
+# Dev
+pytest==8.3.3
