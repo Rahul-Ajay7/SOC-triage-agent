@@ -23,7 +23,7 @@ from app.services import triage_service
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(name)s: %(message)s")
 logger = logging.getLogger("soc")
 
-from fastapi import FastAPI  # noqa: E402
+from fastapi import FastAPI 
 
 app = FastAPI(title=APP_NAME, version="1.0.0")
 
