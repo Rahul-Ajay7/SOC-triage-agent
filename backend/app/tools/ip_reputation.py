@@ -1,11 +1,4 @@
-"""IP reputation tool.
 
-Uses AbuseIPDB (free 1000/day) when ABUSEIPDB_API_KEY is set.
-Falls back to a deterministic heuristic so the agent ALWAYS gets a signal:
-  - private / loopback IPs  -> trusted (internal)
-  - known demo-bad ranges   -> malicious
-  - otherwise               -> unknown (low score)
-"""
 import ipaddress
 from typing import Any
 
