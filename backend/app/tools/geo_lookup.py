@@ -1,9 +1,4 @@
-"""Geo lookup + impossible-travel detection.
 
-Uses ip-api.com (free, no key, 45 req/min) when reachable; otherwise a
-small offline map for demo IPs. Impossible travel = same user seen from
-two far-apart geos within a short window.
-"""
 import ipaddress
 import math
 from typing import Any
